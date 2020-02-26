@@ -1,0 +1,21 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.button {
+  @apply px-4 py-2 rounded font-semibold bg-gray-200 text-white bg-black inline-block;
+  cursor: pointer;
+
+  &:hover {
+    @apply bg-gray-500
+  }
+}
+
+.button--ghost {
+  @apply inline-block bg-transparent text-black font-semibold py-2 px-4 border border-black rounded;
+  cursor: pointer;
+
+  &:hover {
+   @apply bg-black text-white;
+  }
+}
