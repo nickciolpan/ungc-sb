@@ -13,5 +13,6 @@ storiesOf('Button', module)
 
 storiesOf('Header', module)
   .add('Primary', () => '<header class="header"><p>Header Primary</p></header>')
+  .addParameters({})
   .add('Secondary', () => '<header class="header--secondary"><p>Header Secondary</p></header>');
 
